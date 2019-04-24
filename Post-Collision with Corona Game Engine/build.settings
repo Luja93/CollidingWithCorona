@@ -1,0 +1,26 @@
+settings = {
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" },
+	},
+	
+	iphone =
+	{
+		plist=
+		{
+			UIStatusBarHidden=true,
+			UIApplicationExitsOnSuspend = true
+		},
+	},
+	
+	android =
+    {
+		
+        usesPermissions =
+        {
+           
+        },
+    },
+	
+}
